@@ -1,0 +1,48 @@
+{
+  "name": "pos-tokenizer",
+  "version": "1.0.0",
+  "description": "POS tokenization of words int meaningful components usable in POS-Bayes & Elastic Search Indexes",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "glossary": "^0.1.1",
+    "lodash": "^3.9.3",
+    "path": "^0.11.14",
+    "penny-node": "^0.0.2",
+    "retext": "^0.5.1",
+    "retext-inspect": "^0.4.2",
+    "retext-pos": "^0.2.1",
+    "retext-visit": "^0.2.6",
+    "safe-readfile": "^1.0.1",
+    "string": "^3.2.0",
+    "words.js": "^0.3.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mugendi/pos-tokenizer.git"
+  },
+  "keywords": [
+    "tokenization",
+    "ai",
+    "parts",
+    "of",
+    "speech",
+    "POS",
+    "Bayes",
+    "training",
+    "classification",
+    "categorization"
+  ],
+  "author": "Anthony Mugendi (ngurumugz@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mugendi/pos-tokenizer/issues"
+  },
+  "homepage": "https://github.com/mugendi/pos-tokenizer"
+}
